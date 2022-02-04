@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Desafio 04 - Rocketseat Discovery</title>
+</head>
+
+<body>
+  <nav>
+    <img src="./images/logo.svg" class="logo" alt="logo" />
+  </nav>
+  <main>
+    <div class="main-thing">
+      <h1>
+        <img src="./images/log-in.svg" alt=""> Faça seu login
+      </h1>
+      <span class="main-sub">
+        Entre com suas informações de cadastro.
+      </span>
+      <form>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" value="Digite seu email" required maxlength="25" minlength="2">
+        <span class="email-img">
+          <img src="images/mail.svg" />
+        </span>
+        <label for="password">Senha</label>
+        <input type="text" src="images/lock.svg" id="password" value="Digite seu senha">
+        <span>
+          <img src="./images/lock.svg" class="lock-img" alt="password-icon">
+          <img src="./images/eye.svg" class="eye-img" alt="password-icon">
+        </span>
+        <div class="checkbox">
+          <span>
+            <input type="checkbox" name="check">
+            <label for="check">Lembre-me</label>
+          </span>
+          <span class="forgot">Esqueci minha senha</span>
+        </div>
+        <button>ENTRAR</button>
+        <span class="register">
+          Não tem uma conta? Registra-se
+        </span>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
